@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employer: MyString
+  years_worked: 1
+  position: MyString
+  reason_for_leaving: MyString
+
+two:
+  employer: MyString
+  years_worked: 1
+  position: MyString
+  reason_for_leaving: MyString

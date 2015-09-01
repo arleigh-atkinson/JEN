@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  school: MyString
+  years_attended: 1
+  gpa: 1.5
+  graduated: false
+
+two:
+  school: MyString
+  years_attended: 1
+  gpa: 1.5
+  graduated: false
