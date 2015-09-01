@@ -1,17 +1,17 @@
-<style>
-  body {
+<!--   body {
     font-family: Curlz MT,Comic Sans MS,Arial;
     background-color: #009CD1;
     margin-left: 15%;
   }
-</style>
+ -->
 
-<h1>Jen's AWESOME work HiSTorY</h1>
+<h1 class="header">Jen's AWESOME work HiSTorY</h1>
 
-<% @works.each do |work| %>
-<h3>Employer: <%= work.employer %></h3> |
-Position: <%= work.position %> |
-Years Worked: <%= work.years_worked %> |
-Reason for Leaving: <%= work.reason_for_leaving %>
-
-<% end %>
+<div class="maincontainer">
+  <% @works.each do |work| %>
+  <h3>Employer: <%= work.employer %></h3> |
+  Position: <%= work.position %> |
+  Years Worked: <%= work.years_worked %> | 
+  Reason for Leaving: <%= work.reason_for_leaving %>
+  <% end %>
+</div>
