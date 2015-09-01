@@ -6,8 +6,10 @@ class StaticPagesController < ApplicationController
   end
 
   def work
+    @works = Work.all
   end
 
   def education
+    @educations = Education.all
   end
 end
